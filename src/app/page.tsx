@@ -20,7 +20,7 @@ export default function Home() {
 
         <section
           id="About"
-          className="md:scroll-mt-20 min-h-[calc(100vh-80px-120px)]"
+          className="md:scroll-mt-25"
         >
           <AboutPage />
         </section>
@@ -29,7 +29,7 @@ export default function Home() {
           <ProjectPage />
         </section>
 
-        <section id="Contact" className="md:scroll-mt-20 ">
+        <section id="Contact" className="md:scroll-mt-27 ">
           <ContactPage />
         </section>
         <Footer></Footer>
