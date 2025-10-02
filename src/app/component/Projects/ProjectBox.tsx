@@ -12,7 +12,7 @@ interface Project {
   github: string;
 }
 
-interface ProjectBoxProps extends Project {}
+type ProjectBoxProps = Project;
 
 export default function ProjectBox({
   title,
