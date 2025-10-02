@@ -4,6 +4,7 @@ import ContactPage from "./component/Contact/ContactPage";
 import Header from "./component/Header/Header";
 import NameCard from "./component/NameCard";
 import ProjectPage from "./component/Projects/ProjectPage";
+import Footer from "./component/Footer";
 
 export default function Home() {
   return (
@@ -31,6 +32,7 @@ export default function Home() {
         <section id="Contact" className="md:scroll-mt-20 ">
           <ContactPage />
         </section>
+        <Footer></Footer>
       </main>
     </>
   );
