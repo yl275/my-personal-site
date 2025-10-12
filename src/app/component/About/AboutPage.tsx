@@ -7,7 +7,7 @@ export default function AboutPage() {
   return (
     <>
       <div
-        className=" p-0 pt-25 pb-25 bg-amber-300 items-center
+        className=" p-0 pt-25 pb-25 bg-amber-300 items-center min-h-[70vh]
         flex flex-col gap-10 md:flex-row xl:gap-70 xl:p-33.5 border-t-6
         
       "

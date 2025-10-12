@@ -42,7 +42,7 @@ export default function Header() {
   return (
     <>
       <div
-        className={`p-4 md:flex inset-x-0 fixed top-0 bg-background z-[10000]
+        className={`p-[1vh] md:flex inset-x-0 fixed top-0 bg-background z-[10000]
        border-t-0 border-black rounded-2xl hidden
        rounded-tl-none rounded-tr-none justify-between
        ${border ? "border-4" : ""}`}
