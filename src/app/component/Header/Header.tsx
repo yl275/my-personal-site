@@ -15,7 +15,7 @@ export default function Header() {
   });
 
   useEffect(() => {
-    const sections = ["Home", "About", "Projects", "Contact"];
+    const sections = ["Home", "About", "Projects","Blogs", "Contact"];
     const observer = new IntersectionObserver(
       (entries) => {
         entries.forEach((entry) => {
