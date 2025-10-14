@@ -1,5 +1,6 @@
+'use client';
+import { useState } from "react";
 import StaggeredMenu from "@/components/StaggeredMenu";
-import { useEffect } from "react";
 
 const menuItems = [
   { label: "Home", ariaLabel: "Go to home page", link: "#Home" },
@@ -15,13 +16,16 @@ const socialItems = [
 ];
 
 export default function Menu() {
+  
+  const [isMenuOpen, setIsMenuOpen] = useState(false);
+
   return (
     <div
       style={{
         position: "fixed",
         inset: 0,
-        pointerEvents: "",
-        height: "100vh",
+        pointerEvents: "auto",
+        height: isMenuOpen ? "100vh" : "64px",
         width: "100vw",
         background: "transparent",
         zIndex: 9999,
@@ -40,8 +44,8 @@ export default function Menu() {
         colors={["#E0E7FF", "#6366F1"]}
         // logoUrl="/path-to-your-logo.svg"
         accentColor="#ff6b6b"
-        onMenuOpen={() => console.log("Menu opened")}
-        onMenuClose={() => console.log("Menu closed")}
+        onMenuOpen={() => setIsMenuOpen(true)}
+        onMenuClose={() => setIsMenuOpen(false)}
       />
     </div>
   );

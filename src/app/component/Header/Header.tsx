@@ -15,7 +15,7 @@ export default function Header() {
   });
 
   useEffect(() => {
-    const sections = ["Home", "About", "Projects","Blogs", "Contact"];
+    const sections = ["Home", "About", "Projects", "Blogs", "Contact"];
     const observer = new IntersectionObserver(
       (entries) => {
         entries.forEach((entry) => {
@@ -51,7 +51,7 @@ export default function Header() {
         <RightNav></RightNav>
       </div>
 
-      <div className="md:hidden">
+      <div className="md:hidden staggered-menu">
         <Menu />
       </div>
     </>

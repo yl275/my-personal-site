@@ -14,15 +14,12 @@ export default function Home() {
 
       <main>
         <section id="Home">
-          <Center className="w-4/5 pt-[15vh]">
+          <Center className="w-4/5 pt-30">
             <NameCard />
           </Center>
         </section>
 
-        <section
-          id="About"
-          className="md:scroll-mt-25"
-        >
+        <section id="About" className="md:scroll-mt-25">
           <AboutPage />
         </section>
 

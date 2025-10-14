@@ -15,7 +15,7 @@ const projectList: Project[] = [
     description:
       "My first group project as a backend developer, where I owned database integration and API connectivity for a time-series data exploration platform. Designed and implemented RESTful APIs endpoints, enabling data querying and visualization. Collaborated closely with frontend developers, contributing to architectural decisions and technical solutions. Gained hands-on experience with Docker, Express.js, and InfluxDB client integration.",
     image: "/ATSYS.png",
-    techStack: ["RESTful","InfluxDB","Docker"],
+    techStack: ["RESTful", "InfluxDB", "Docker"],
   },
   {
     title: "3-Gomoku",

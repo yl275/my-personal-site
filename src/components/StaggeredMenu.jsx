@@ -441,7 +441,7 @@ export const StaggeredMenu = ({
                       toggleMenu();
                     }}
                   >
-                    <span className="sm-panel-itemLabel">{it.label}</span>
+                    <span className="sm-panel-itemLabel z-1">{it.label}</span>
                   </a>
                 </li>
               ))

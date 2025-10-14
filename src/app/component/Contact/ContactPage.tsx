@@ -85,13 +85,13 @@ export default function ContactPage() {
         </form>
       </div>
       {showSuccessMessage && (
-          <div
-            className="fixed top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 
-                  bg-green-400 text-black p-4 rounded shadow-lg z-50" 
-          >
-            Thanks for reaching out! Your message has been sent.
-          </div>
-        )}
+        <div
+          className="fixed top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 
+                  bg-green-400 text-black p-4 rounded shadow-lg z-50"
+        >
+          Thanks for reaching out! Your message has been sent.
+        </div>
+      )}
     </>
   );
 }
