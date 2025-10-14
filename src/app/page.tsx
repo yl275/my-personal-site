@@ -14,7 +14,7 @@ export default function Home() {
 
       <main>
         <section id="Home">
-          <Center className="w-4/5 pt-[25vh]">
+          <Center className="w-4/5 pt-[15vh]">
             <NameCard />
           </Center>
         </section>
