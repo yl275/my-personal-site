@@ -1,11 +1,11 @@
-import AboutPage from "./component/About/AboutPage";
-import Center from "./component/Center";
-import ContactPage from "./component/Contact/ContactPage";
-import Header from "./component/Header/Header";
-import NameCard from "./component/NameCard";
-import ProjectPage from "./component/Projects/ProjectPage";
-import Footer from "./component/Footer";
-import BlogsSection from "./component/Blogs/BlogsSection";
+import AboutPage from "../components/About/AboutPage";
+import Center from "../components/Center";
+import ContactPage from "../components/Contact/ContactPage";
+import Header from "@/components/Header/Header";
+import NameCard from "../components/NameCard";
+import ProjectPage from "../components/Projects/ProjectPage";
+import Footer from "../components/Footer";
+import BlogsSection from "../components/Blogs/BlogsSection";
 
 export default function Home() {
   return (
