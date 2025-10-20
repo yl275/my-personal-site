@@ -4,9 +4,9 @@ const projectList: Project[] = [
   {
     title: "Customer Ticketing System",
     description:
-      "A full-stack customer ticketing system with role-based access control. Built with Next.js, PostgreSQL. Features include ticket creation, assignment, status tracking, and real-time updating info from database.",
+      "A full-stack customer ticketing system with role-based access control. Built with Next.js, PostgreSQL. Features include ticket creation, assignment, status tracking, and real-time updating info from database.\n Test UserName/Password: TestUser",
     image: "/Tickets.png",
-    techStack: ["Next.js", "PostgreSQL", "Drizzle ORM", "Tailwind CSS"],
+    techStack: ["Next.js", "PostgreSQL", "Drizzle ORM", "Tailwind CSS", "Shadcn UI"],
     link: "https://customer-service-ticketing-web.vercel.app/tickets",
     github: "https://github.com/yl275/Customer-Service-Ticketing-Software",
   },

@@ -44,7 +44,7 @@ export default function ProjectBox({
         <p className="font-black font-archivo text-2xl sm:text-3xl md:text-4xl lg:text-5xl xl:text-6xl">
           {title}
         </p>
-        <div className="bg-purple-400 rounded-2xl text-md md:font-normal sm:text-base md:text-md p-8 w-fit">
+        <div className="bg-purple-400 rounded-2xl text-md md:font-normal sm:text-base md:text-md p-5 w-fit whitespace-pre-line">
           {description}
         </div>
         <div className="flex flex-wrap ml-1 mr-1 gap-4">
