@@ -2,6 +2,15 @@ import { Project } from "../types";
 
 const projectList: Project[] = [
   {
+    title: "Customer Ticketing System",
+    description:
+      "A full-stack customer ticketing system with role-based access control. Built with Next.js, PostgreSQL. Features include ticket creation, assignment, status tracking, and real-time updating info from database.",
+    image: "/Tickets.png",
+    techStack: ["Next.js", "PostgreSQL", "Drizzle ORM", "Tailwind CSS"],
+    link: "https://customer-service-ticketing-web.vercel.app/tickets",
+    github: "https://github.com/yl275/Customer-Service-Ticketing-Software",
+  },
+  {
     title: "E-Commerce platform",
     description:
       "Dual-app e-commerce system: ecommerce-admin manages products and orders,ecommerce-front handles browsing, cart, and checkout. Built with Next.js and MongoDB, featuring modular UI components and full payment integration.",
