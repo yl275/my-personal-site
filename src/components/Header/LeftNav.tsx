@@ -6,7 +6,7 @@ const navItems = [
   { name: "Projects", href: "#Projects" },
   { name: "Blogs", href: "#Blogs" },
   { name: "Contact", href: "#Contact" },
-  { name: "Resume", href: "/Yuan%20Li.pdf", external: true },
+  { name: "Resume", href: "/resume.pdf", external: true },
 ];
 
 export default function LeftNav({ active }: { active: string }) {
