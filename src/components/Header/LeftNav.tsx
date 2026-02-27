@@ -6,6 +6,7 @@ const navItems = [
   { name: "Projects", href: "#Projects" },
   { name: "Blogs", href: "#Blogs" },
   { name: "Contact", href: "#Contact" },
+  { name: "Resume", href: "/Yuan%20Li.pdf", external: true },
 ];
 
 export default function LeftNav({ active }: { active: string }) {
@@ -13,8 +14,10 @@ export default function LeftNav({ active }: { active: string }) {
     <nav className="flex gap-12 p-4">
       {navItems.map((item) => (
         <a
-          key={item.href}
+          key={item.name}
           href={item.href}
+          target={item.external ? "_blank" : undefined}
+          rel={item.external ? "noopener noreferrer" : undefined}
           className={`hover:text-gray-700 hover:underline
           transition-colors duration-200 text-2xl font-archivo font-bold
           ${active === item.name ? "text-gray-700 underline" : ""}
