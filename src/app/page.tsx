@@ -30,9 +30,9 @@ export default function Home() {
           <ProjectPage />
         </section>
 
-        <section id="Blogs" className="md:scroll-mt-20 ">
+        {/* <section id="Blogs" className="md:scroll-mt-20 ">
           <BlogsSection />
-        </section>
+        </section> */}
 
         <section id="Contact" className="md:scroll-mt-27 min-h-[70vh]">
           <ContactPage />
