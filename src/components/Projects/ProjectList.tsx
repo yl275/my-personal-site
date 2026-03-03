@@ -2,11 +2,19 @@ import { Project } from "../types";
 
 const projectList: Project[] = [
   {
+    title: "InvoiceSys",
+    description:
+      "InvoiceSys is a lightweight invoicing system I built to simplify how small teams handle billing. It focuses on clear workflows: from drafting and sending invoices to tracking payments and organizing client records. Features like clean print views and a calendar filter keep everything easy to review. You can explore the live app using the demo button just below the hero slogan.",
+    image: "/InvoiceSys.png",
+    techStack: ["ASP.NET Core", "Entity Framework", "PostgreSQL", "IaC(Render BluePrint)", "Next.js", "Clerk"],
+    link: "https://invoice.yuanli.au/",
+  },
+  {
     title: "Customer Ticketing System",
     description:
       "A full-stack customer ticketing system with role-based access control. Built with Next.js, PostgreSQL. Features include ticket creation, assignment, status tracking, and real-time updating info from database.\n Test UserName/Password: TestUser",
     image: "/Tickets.png",
-    techStack: ["Next.js", "PostgreSQL", "Drizzle ORM", "Tailwind CSS", "Shadcn UI"],
+    techStack: ["Next.js", "PostgreSQL", "Drizzle ORM", "Tailwind CSS", "Shadcn UI"]  ,
     link: "https://customer-service-ticketing-web.vercel.app/tickets",
     github: "https://github.com/yl275/Customer-Service-Ticketing-Software",
   },
