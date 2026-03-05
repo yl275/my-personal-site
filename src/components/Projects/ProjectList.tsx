@@ -24,7 +24,7 @@ const projectList: Project[] = [
       "Dual-app e-commerce system: ecommerce-admin manages products and orders,ecommerce-front handles browsing, cart, and checkout. Built with Next.js and MongoDB, featuring modular UI components and full payment integration.",
     image: "/E-commerce.png",
     techStack: ["Stripe", "Next.js", "MongoDB", "AWS S3", "Axios"],
-    link: "https://ecommerce-front-sk7f5oc1x-ys-projects-8a426084.vercel.app/",
+    link: "https://ecommerce-front-tau-tan.vercel.app/",
     github: "https://github.com/yl275/ecommerce-front",
   },
   {
