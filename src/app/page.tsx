@@ -5,7 +5,7 @@ import Header from "@/components/Header/Header";
 import NameCard from "../components/NameCard";
 import ProjectPage from "../components/Projects/ProjectPage";
 import Footer from "../components/Footer";
-import BlogsSection from "../components/Blogs/BlogsSection";
+import BlogSection from "@/sections/Blog";
 
 export default function Home() {
   return (
@@ -30,9 +30,9 @@ export default function Home() {
           <ProjectPage />
         </section>
 
-        {/* <section id="Blogs" className="md:scroll-mt-20 ">
-          <BlogsSection />
-        </section> */}
+        <section id="Blogs" className="md:scroll-mt-20 ">
+          <BlogSection />
+        </section>
 
         <section id="Contact" className="md:scroll-mt-27 min-h-[70vh]">
           <ContactPage />
